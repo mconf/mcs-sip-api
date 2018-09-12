@@ -10,8 +10,10 @@
 
 - hangup
      - @param {String} callId
+     - @return {String} callId
+     - @return {String} state
 
-## Outbound methods (MCS-BFCP -> MCS-SIP)
+## Outbound methods (MCS-SIP -> *)
 - dialStateChanged
      - @param {String} callId
      - @param {String} state

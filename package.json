@@ -1,0 +1,11 @@
+{
+  "name": "mcs-sip-api",
+  "version": "0.0.1-dev",
+  "dependencies": {
+    "ws": "3.1.0",
+    "uuid": "*"
+  },
+  "devDependencies": {
+    "nodeunit": "0.11.1"
+  }
+}
