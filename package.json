@@ -1,6 +1,6 @@
 {
   "name": "mcs-sip-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "ws": "6.1.2",
     "uuid": "3.3.2"
