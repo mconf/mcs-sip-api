@@ -2,16 +2,36 @@
 
 # API specification
 ## Inbound requests (* -> MCS-SIP)
-- dial
-     - @param {String} room
+- create
+     - @param {String} roomId
      - @param {String} uri
-     - @param {String} protocol
+     - @return {String} callId
+
+- dial
+     - @param {String} callId
      - @return {String} callId
 
 - hangup
      - @param {String} callId
      - @return {String} callId
      - @return {String} state
+
+- register
+     - @param {String} routeTo
+     - @param {String} bindings
+     - @return {String} bindings
+
+- unregister
+     - @param {String} bindings
+     - @return {String} bindings
+
+- getCalls
+     - @param {String} roomId
+     - @return {Array<Object>} calls
+
+- getCallInfo
+     - @param {String} callId
+     - @return {Object} callInfo
 
 ## Outbound methods (MCS-SIP -> *)
 - dialStateChanged
