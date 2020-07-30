@@ -1,6 +1,6 @@
 {
   "name": "mcs-sip-api",
-  "version": "1.0.0-beta.0",
+  "version": "0.9.0",
   "description": "A client-server RPC API over WS for communication with mcs-sip",
   "dependencies": {
     "ws": "6.1.2",
