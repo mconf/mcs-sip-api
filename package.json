@@ -3,7 +3,7 @@
   "version": "0.9.1",
   "description": "A client-server RPC API over WS for communication with mcs-sip",
   "dependencies": {
-    "ws": "6.1.2",
+    "ws": "7.4.6",
     "uuid": "3.3.2"
   },
   "devDependencies": {}
