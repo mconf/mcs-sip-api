@@ -4,7 +4,7 @@
   "description": "A client-server RPC API over WS for communication with mcs-sip",
   "dependencies": {
     "ws": "^8.5.0",
-    "uuid": "3.3.2"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {}
 }
